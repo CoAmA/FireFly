@@ -1,0 +1,50 @@
+body{
+	margin:0;
+	padding:0;
+}
+#container{
+	width:1000px;
+	margin:0 auto;
+}
+#bunica{
+	width:1000px;
+	height:590px;
+	background-image:url('../img/bg.jpg');
+	float:left;
+}
+#bunicasub{
+	width:1000px;
+	height:590px;
+	position:absolute;
+	z-index:30;
+}
+#licurici{
+	width:127px;
+	height:127px;
+	top :-15px;
+	left:53px;
+	z-index:60;
+	position:absolute;
+	background-image:url('../img/licurici.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

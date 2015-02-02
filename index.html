@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/firefly.1.0.min.js"></script>
+		<script type='text/javascript'>
+			//how long it takes the FireFly to reach from point A to point B
+			var time = 2000;
+			
+			//create the FireFly
+			licurici = new FireFly('licurici','-15px','53px',time);
+
+			var nodes = [];
+			//create as manny nodes as you need by pushing them into nodes array
+			nodes.push(new Node('250px','540px',[['-15px','53px'],['10px','847px']]));
+
+			var outside = [];
+			//create as manny nodes as you need by pushing them into nodes array
+			outside.push(new Outside('-15px','53px',['250px','540px']));
+			outside.push(new Outside('10px','847px',['250px','540px']));
+			
+			//Go FireFly Go
+			setInterval(run, time+100);
+			
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="bunica">
+				<div id="bunicasub">
+					<div id="licurici"></div>
+				<div>
+			</div>
+		</div>
+	</body>
+</html>
