@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	padding:0;
+	cursor: url('../img/bg.jpg') ;
 }
 #container{
 	width:1000px;
@@ -18,7 +19,7 @@ body{
 	position:absolute;
 	z-index:30;
 }
-#firefly{
+.firefly{
 	width:127px;
 	height:127px;
 	top :-15px;
